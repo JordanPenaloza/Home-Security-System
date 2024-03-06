@@ -5,8 +5,8 @@ import threading
 import time
 
 #twilio stuff
-account_sid = "ACac9b029c11f2cb1e9b98c50529464191"
-auth_token = "a54cbe266686e1c4f9a8d6b550470dd0"
+account_sid = "sid"
+auth_token = "token"
 client = Client(account_sid, auth_token) #creates client
 twilio_phone_number = "+18447342936" #phone number to send the message
 recipient_phone_number = "+19167199871" #phone number to send the message to
